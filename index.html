@@ -9,9 +9,12 @@
             background-image: linear-gradient(75deg, pink ,  lightgray 5%,pink 15%, lightgray 55% , lightgray 90%,pink);
             background-size: 100%;
             background-attachment: fixed;
+           background-attachment: fixed;
              margin:0;
             padding:0;
-            
+             width: 100vw;
+            height:100vh;
+            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -31,9 +34,9 @@
     <div class='message'>
 
     </div>
-    <button type='button'>Rock!</button>
-    <button type='button'>Paper!</button> 
-    <button type='button'>Scissors!</button> 
+    <button type='button'>Rock</button>
+    <button type='button'>Paper</button> 
+    <button type='button'>Scissors</button> 
     <script>
         const message = document.querySelector('.message');
         const score = document.querySelector('.score');
