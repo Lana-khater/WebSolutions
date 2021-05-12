@@ -5,7 +5,7 @@ html,body{
 height: 100%;
 }
 body{
-background-image: linear-gradient(75deg,white,  lightgray 5%,white 15%, lightgray 55% , lightgray 90%,white);
+background-image: linear-gradient(75deg,pink ,  lightgray 5%,pink 15%, lightgray 55% , lightgray 90%,white);
 background-size: 100%;
 background-attachment: fixed;
 min-height: 300px;
