@@ -27,16 +27,16 @@
     <h1 style="background-color:powderblue;">Rock, Paper, Scissors</h1>
     <p>Select either rock, paper, or scissors and see if you can beat the computer!</p>
 
-    <p style="color:powderblue;"><strong>Remember:</strong> “<i>Rock</i> <b> breaks </b> scissors , <i>scissors</i>  <b>cuts</b>  paper, <i> paper</i>  <b>covers</b> rock.” </p>
+    <p style="color:Violet;"><strong>Remember:</strong> “<i>Rock</i> <b> breaks </b> scissors , <i>scissors</i>  <b>cuts</b>  paper, <i> paper</i>  <b>covers</b> rock.” </p>
     <div class='score'>
 
     </div>
     <div class='message'>
 
     </div>
-    <button type='button'>Rock! </button><br> <br>
-    <button type='button'>Paper!</button><br> <br> 
-    <button type='button'>Scissors!</button> <br> <br>
+    <button type='button'>Rock!</button>
+    <button type='button'>Paper!</button> 
+    <button type='button'>Scissors!</button> 
     <script>
         const message = document.querySelector('.message');
         const score = document.querySelector('.score');
@@ -80,7 +80,7 @@
             }
 
             if (result === 'Draw'){
-                result += '. It's a tie!'
+                result += '. It\'s a tie!'
             }
 
             //output score into Score DIV
