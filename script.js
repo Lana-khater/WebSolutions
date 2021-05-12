@@ -105,4 +105,6 @@ function animationDuration(object){
 document.querySelectorAll("#human,#computer").forEach(function(object){
     animationDuration(object)
 })
-computerDecision()
+computerDecision() 
+
+
