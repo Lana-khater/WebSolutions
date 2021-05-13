@@ -16,14 +16,14 @@ html {
 }
 
 body {
-	background: #24272e;
+	background-image: linear-gradient(75deg,pink ,  lightgray 5%,pink 15%, lightgray 55% , lightgray 90%,pink);
 	color: #fff;
 	font-family: "Roboto", sans-serif;
 }
 
 code {
 	font-family: 'Source Code Pro', monospace;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 a {
